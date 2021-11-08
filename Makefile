@@ -102,9 +102,9 @@ zsh-plugins:
 .PHONY:
 files:
 	@echo 'CONFIGURING FILESYSTEM'
-	ln -sfv $(CURDIR)/root/.scripts       ~/.scripts
-	ln -sfv $(CURDIR)/root/.config/kitty  ~/.config/kitty
-	ln -sfv $(CURDIR)/root/.config/sway   ~/.config/sway
-	ln -sfv $(CURDIR)/root/.config/waybar ~/.config/waybar
-	ln -sfv $(CURDIR)/root/.zshrc         ~/.zshrc
-	ln -sfv $(CURDIR)/root/.config/zsh    ~/.config/zsh
+	ln -sfv $(CURDIR)/root/.scripts       ~/
+	ln -sfv $(CURDIR)/root/.zshrc         ~/
+	ln -sfv $(CURDIR)/root/.config/kitty  ~/.config/
+	ln -sfv $(CURDIR)/root/.config/sway   ~/.config/
+	ln -sfv $(CURDIR)/root/.config/waybar ~/.config/
+	ln -sfv $(CURDIR)/root/.config/zsh    ~/.config/

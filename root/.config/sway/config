@@ -1,0 +1,5 @@
+include ./default
+include ./bar
+include ./font
+
+include /etc/sway/config.d/*
